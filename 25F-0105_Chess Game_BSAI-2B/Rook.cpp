@@ -49,7 +49,7 @@ bool Rook::isValidMove(int toRow, int toCol, Piece* board[8][8])
 	//Checking for Destination that if
 	//1- Destination is EMPTY (MOVE)
 	//2- Destination has enemy piece (KILL)
-	//3- Destiantion has friendly piece (STOP BEFORE IT AT A EMPTY SQUARE)
+	//3- Destiantion has friendly piece (INVALID; Change track)
 	if (board[toRow][toCol] == nullptr)
 		return true;//Empty square
 	if (board[toRow][toCol]->getColor() != myColor)
