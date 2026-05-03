@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Bishop.h" />
+    <ClInclude Include="Queen.h" />
     <ClInclude Include="Knight.h" />
     <ClInclude Include="Rook.h" />
     <ClInclude Include="Pawn.h" />
@@ -135,6 +136,7 @@
     <ClCompile Include="Rook.cpp" />
     <ClCompile Include="Knight.cpp" />
     <ClCompile Include="Bishop.cpp" />
+    <ClCompile Include="Queen.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
