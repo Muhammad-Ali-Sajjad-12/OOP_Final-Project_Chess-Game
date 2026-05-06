@@ -86,7 +86,7 @@ void Board::display()
 		cout << " " << (8 - r) << "\n\n";
 	}
 	//Printing COLUMNS on bottom side as well
-	cout << "a   b   c   d   e   f   g   h\n\n";
+	cout << "    a   b   c   d   e   f   g   h\n\n";
 }
 
 //Checking for VALID MOVE

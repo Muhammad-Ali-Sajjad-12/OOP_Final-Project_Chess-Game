@@ -69,7 +69,9 @@ void Game::start()
 	cout << "  HOW TO ENTER MOVES:\n";
 	cout << "  Type column (a-h) + row (1-8)\n";
 	cout << "  Example: e2 e4\n";
-	cout << "  (move piece FROM e2 TO e4)\n\n";
+	cout << "  (move piece FROM e2 TO e4)\n";
+	cout << "WHITE pieces: UPPERCASE LETTERS\n";
+	cout << "BLACK pieces: LOWERCASE LETTERS\n\n";
 
 	//MAIN GAME LOOP (Keeps running until a KING is Killed)
 	while (!gameOver)
